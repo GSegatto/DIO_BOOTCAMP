@@ -52,8 +52,12 @@ Esta seção apresenta capturas de tela do uso real da ferramenta durante o dese
 
 ## Síntese e geração de conteúdo
 
-![NotebookLM - resumo](assets/notebooklm-resumo1.png)
-![NotebookLM - resumo](assets/notebooklm-resumo2.png)
+
+![NotebookLM - resumo 1](assets/notebooklm-resumo1.png)
+
+
+![NotebookLM - resumo 2](assets/notebooklm-resumo2.png)
+
 ---
 
 # Curadoria de Fontes
