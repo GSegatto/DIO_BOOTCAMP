@@ -1,12 +1,14 @@
 # Miniguia de Estudos — Engenharia de Prompts para LLMs
 
-## Introdução
+---
+
+# Introdução
 
 A Engenharia de Prompts é o processo de criação de instruções eficazes para modelos de linguagem, com o objetivo de obter respostas mais precisas, úteis e consistentes.
 
 ---
 
-## Conceitos Fundamentais
+# Conceitos Fundamentais
 
 - Tokens: unidades de texto processadas pelo modelo  
 - Tokenização: divisão do texto em tokens  
@@ -19,47 +21,47 @@ A Engenharia de Prompts é o processo de criação de instruções eficazes para
 
 ---
 
-## Técnicas de Prompting
+# Técnicas de Prompting
 
-- Zero-shot: sem exemplos  
-- One-shot: um exemplo  
-- Few-shot: múltiplos exemplos  
-- Chain-of-Thought: raciocínio passo a passo  
-- Self-Consistency: múltiplos caminhos de raciocínio  
-- ReAct: raciocínio + ação  
-- Tree of Thoughts: exploração de múltiplas soluções  
+- Zero-shot  
+- One-shot  
+- Few-shot  
+- Chain-of-Thought  
+- Self-Consistency  
+- ReAct  
+- Tree of Thoughts  
 
 ---
 
-## Boas Práticas
+# Boas Práticas
 
-- Definir papel do modelo  
-- Ser claro e objetivo  
+- Definir claramente o papel da IA  
+- Ser específico e objetivo  
 - Estruturar instruções  
-- Testar variações de prompts  
-- Utilizar exemplos quando necessário  
+- Iterar e melhorar prompts  
+- Fornecer contexto adequado  
 
 ---
 
-## Erros Comuns
+# Erros Comuns
 
-- Falta de contexto  
 - Prompts vagos  
+- Falta de contexto  
 - Instruções ambíguas  
 - Expectativa de conhecimento implícito  
 
 ---
 
-## Aplicações
+# Aplicações
 
 - Desenvolvimento de software  
 - Análise de dados  
+- Automação de tarefas  
 - Educação  
-- Automação  
 - Criação de agentes de IA  
 
 ---
 
-## Conclusão
+# Conclusão
 
 A Engenharia de Prompts é uma habilidade essencial para maximizar o uso de modelos de linguagem, permitindo respostas mais precisas e estruturadas.
