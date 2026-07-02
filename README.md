@@ -8,8 +8,11 @@ Este projeto foi desenvolvido como parte de um desafio da DIO, utilizando o Note
 O objetivo foi aprofundar os conhecimentos em Engenharia de Prompts, compreendendo como elaborar instruções mais claras e eficientes para obter respostas de maior qualidade em modelos de Inteligência Artificial. Durante o processo, foram documentados conceitos, testes, exemplos práticos e boas práticas para facilitar futuras consultas.
 
 Além do aprendizado técnico, este projeto demonstra a aplicação de IA como ferramenta de organização do conhecimento e apoio ao desenvolvimento profissional.
+<br>
 
+</br>
 
+## Tema Escolhido
 
 # Engenharia de Prompts para Grandes Modelos de Linguagem (LLMs)
 
