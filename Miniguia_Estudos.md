@@ -1,6 +1,6 @@
-# 📘 Miniguia de Estudos: Engenharia de Prompts para Grandes Modelos de Linguagem (LLMs)
+# Miniguia de Estudos: Engenharia de Prompts para Grandes Modelos de Linguagem (LLMs)
 
-## 📖 Introdução
+## Introdução
 
 A **Engenharia de Prompts** é o processo de criar instruções eficazes para modelos de linguagem, com o objetivo de obter respostas consistentes, precisas e alinhadas às necessidades do usuário ou da aplicação.
 
@@ -8,7 +8,7 @@ Embora seja frequentemente descrita como uma combinação entre arte e ciência,
 
 ---
 
-# 🧠 Conceitos Fundamentais
+# Conceitos Fundamentais
 
 ### 🔹 Tokens
 São as menores unidades de texto processadas por um LLM. Um token pode representar um caractere, parte de uma palavra ou uma palavra inteira, dependendo do modelo utilizado.
@@ -26,7 +26,7 @@ Algumas habilidades, como raciocínio complexo, planejamento e resolução de pr
 
 ---
 
-# 🚀 Técnicas de Prompting
+# Técnicas de Prompting
 
 ## 🎯 Zero-shot
 O modelo recebe apenas a instrução.
@@ -66,7 +66,7 @@ Enriquece o prompt utilizando documentos externos como fonte de conhecimento.
 
 ---
 
-# ✅ Boas Práticas
+# Boas Práticas
 
 - Definir claramente o papel do modelo (*Role Prompting*);
 - Utilizar instruções organizadas por prioridade;
@@ -76,7 +76,7 @@ Enriquece o prompt utilizando documentos externos como fonte de conhecimento.
 
 ---
 
-# ⚠️ Erros Comuns
+# Erros Comuns
 
 - Utilizar instruções vagas ou ambíguas;
 - Presumir que o modelo conhece todo o contexto;
@@ -86,7 +86,7 @@ Enriquece o prompt utilizando documentos externos como fonte de conhecimento.
 
 ---
 
-# 💼 Aplicações Profissionais
+# Aplicações Profissionais
 
 ## 💻 Desenvolvimento de Software
 
@@ -136,7 +136,7 @@ Enriquece o prompt utilizando documentos externos como fonte de conhecimento.
 
 ---
 
-# 📚 Resumo Final
+# Resumo Final
 
 A Engenharia de Prompts consiste em projetar instruções capazes de orientar Grandes Modelos de Linguagem de forma eficiente e previsível.
 
@@ -146,7 +146,7 @@ O domínio dessa habilidade possibilita desenvolver aplicações mais confiávei
 
 ---
 
-# 📌 Biblioteca de Prompts Reutilizáveis
+# Biblioteca de Prompts Reutilizáveis
 
 ## 🎓 Para Estudantes
 
@@ -188,7 +188,7 @@ O domínio dessa habilidade possibilita desenvolver aplicações mais confiávei
 
 ---
 
-# 🎯 Principais Aprendizados
+# Principais Aprendizados
 
 Durante este estudo, compreendi que a **Engenharia de Prompts** vai além da elaboração de perguntas para uma IA. Trata-se de uma habilidade estratégica que envolve comunicação clara, organização do contexto e escolha da técnica mais adequada para cada objetivo.
 
