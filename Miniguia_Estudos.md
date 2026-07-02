@@ -2,44 +2,38 @@
 
 ---
 
-# Introdução
-
-A Engenharia de Prompts é o processo de criação de instruções eficazes para modelos de linguagem, com o objetivo de obter respostas mais precisas, úteis e consistentes.
-
----
-
 # Conceitos Fundamentais
 
-- Tokens: unidades de texto processadas pelo modelo  
+- Tokens: unidades básicas de processamento de texto  
 - Tokenização: divisão do texto em tokens  
 - LLMs: modelos de linguagem em larga escala  
-- Context Window: limite de memória do modelo  
-- Attention: mecanismo de foco em partes do texto  
+- Context Window: limite de contexto do modelo  
+- Attention: mecanismo de foco em partes relevantes do texto  
 - Embeddings: representação vetorial de palavras  
-- Fine-tuning: ajuste de modelos pré-treinados  
+- Fine-tuning: ajuste de modelos com dados específicos  
 - RAG: recuperação de informações externas  
 
 ---
 
 # Técnicas de Prompting
 
-- Zero-shot  
-- One-shot  
-- Few-shot  
-- Chain-of-Thought  
-- Self-Consistency  
-- ReAct  
-- Tree of Thoughts  
+- Zero-shot: sem exemplos  
+- One-shot: um exemplo  
+- Few-shot: múltiplos exemplos  
+- Chain-of-Thought: raciocínio estruturado passo a passo  
+- Self-Consistency: múltiplos caminhos de resposta  
+- ReAct: raciocínio + ação externa  
+- Tree of Thoughts: exploração de múltiplas soluções  
 
 ---
 
 # Boas Práticas
 
 - Definir claramente o papel da IA  
-- Ser específico e objetivo  
+- Ser específico e contextual  
 - Estruturar instruções  
-- Iterar e melhorar prompts  
-- Fornecer contexto adequado  
+- Iterar e refinar prompts  
+- Utilizar exemplos quando necessário  
 
 ---
 
@@ -47,8 +41,8 @@ A Engenharia de Prompts é o processo de criação de instruções eficazes para
 
 - Prompts vagos  
 - Falta de contexto  
-- Instruções ambíguas  
-- Expectativa de conhecimento implícito  
+- Ambiguidade nas instruções  
+- Expectativa de conhecimento implícito do modelo  
 
 ---
 
@@ -64,4 +58,4 @@ A Engenharia de Prompts é o processo de criação de instruções eficazes para
 
 # Conclusão
 
-A Engenharia de Prompts é uma habilidade essencial para maximizar o uso de modelos de linguagem, permitindo respostas mais precisas e estruturadas.
+A Engenharia de Prompts é uma habilidade essencial para maximizar o uso de modelos de linguagem, permitindo maior precisão, controle e qualidade nas respostas geradas.
