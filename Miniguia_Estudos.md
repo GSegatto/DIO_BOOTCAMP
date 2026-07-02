@@ -1,199 +1,225 @@
 # Miniguia de Estudos: Engenharia de Prompts para Grandes Modelos de Linguagem (LLMs)
 
-## Introdução
-
-A **Engenharia de Prompts** é o processo de criar instruções eficazes para modelos de linguagem, com o objetivo de obter respostas consistentes, precisas e alinhadas às necessidades do usuário ou da aplicação.
-
-Embora seja frequentemente descrita como uma combinação entre arte e ciência, seu principal objetivo é reduzir a imprevisibilidade dos **Grandes Modelos de Linguagem (LLMs)**, estruturando instruções claras, objetivas e contextualizadas.
+Repositório com projetos, desafios e anotações do Bootcamp da DIO em Inteligência Artificial, Dados e Cibersegurança.  
+Inclui estudos e aplicações práticas de IA Generativa, Prompt Engineering, análise de dados, automação e ferramentas modernas de tecnologia.
 
 ---
 
-# Conceitos Fundamentais
+# Objetivo
 
-### 🔹 Tokens
-São as menores unidades de texto processadas por um LLM. Um token pode representar um caractere, parte de uma palavra ou uma palavra inteira, dependendo do modelo utilizado.
+Este projeto foi desenvolvido como parte de um desafio da DIO, utilizando o NotebookLM como ferramenta de apoio aos estudos.
 
-### 🔹 Janela de Contexto (Context Window)
-É a quantidade máxima de tokens que o modelo consegue considerar simultaneamente durante uma interação.
+O objetivo foi aprofundar os conhecimentos em **Engenharia de Prompts**, compreendendo como elaborar instruções mais claras e eficientes para obter respostas de maior qualidade em modelos de Inteligência Artificial.
 
-Quanto maior a janela de contexto, maior a capacidade do modelo de manter informações relevantes ao longo da conversa.
+Durante o processo, foram documentados conceitos, testes, exemplos práticos e boas práticas para facilitar futuras consultas.
 
-### 🔹 Aprendizado em Contexto (In-Context Learning)
-Capacidade do modelo de aprender temporariamente uma tarefa apenas com as informações presentes no prompt, sem necessidade de novo treinamento.
-
-### 🔹 Propriedades Emergentes
-Algumas habilidades, como raciocínio complexo, planejamento e resolução de problemas, surgem apenas em modelos de grande escala.
+Além do aprendizado técnico, este projeto demonstra a IA como ferramenta de organização do conhecimento e apoio ao desenvolvimento profissional.
 
 ---
 
-# Técnicas de Prompting
+# Contexto
 
-## 🎯 Zero-shot
-O modelo recebe apenas a instrução.
+A Engenharia de Prompts é uma habilidade essencial no uso de modelos de linguagem (LLMs), pois define diretamente a qualidade das respostas geradas pela IA.
 
-**Exemplo:**
-> Explique o que é Engenharia de Prompts.
+Este projeto teve como foco entender como diferentes formas de instrução influenciam o comportamento dos modelos e como técnicas específicas podem melhorar a precisão, organização e utilidade das respostas.
 
 ---
 
-## 🎯 One-shot
-A tarefa inclui um único exemplo antes da solicitação.
+# Tema Escolhido
+
+Engenharia de Prompts para Grandes Modelos de Linguagem (LLMs)
 
 ---
 
-## 🎯 Few-shot
-São fornecidos diversos exemplos para orientar o modelo quanto ao padrão esperado.
+# Objetivos Específicos
+
+- Compreender como prompts influenciam respostas de modelos de IA  
+- Estudar técnicas como Zero-shot, One-shot, Few-shot e Chain-of-Thought  
+- Analisar boas práticas de Engenharia de Prompts  
+- Criar prompts reutilizáveis para diferentes cenários  
+- Organizar um material de estudo estruturado  
 
 ---
 
-## 🎯 Chain-of-Thought (CoT)
-Solicita que o modelo apresente seu raciocínio passo a passo antes da resposta final.
+# Ferramentas Utilizadas
+
+- NotebookLM  
+- Inteligência Artificial Generativa  
+- Git e GitHub  
+- Markdown  
 
 ---
 
-## 🎯 Self-Consistency
-O modelo gera diferentes linhas de raciocínio e seleciona a resposta mais consistente.
+# Curadoria de Fontes
+
+- OpenAI – Prompt Engineering Guide  
+https://platform.openai.com/docs/guides/prompt-engineering  
+
+- Google AI – Prompt Design Guide  
+https://ai.google.dev/gemini-api/docs/prompting  
+
+- Anthropic – Prompt Engineering Overview  
+https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview  
+
+- Microsoft Learn – Prompt Engineering  
+https://learn.microsoft.com/training/modules/introduction-prompt-engineering-with-github-copilot/  
+
+- Language Models are Few-Shot Learners (GPT-3)  
+https://arxiv.org/abs/2005.14165  
+
+- Chain-of-Thought Prompting Elicits Reasoning in Large Language Models  
+https://arxiv.org/abs/2201.11903  
+
+- Hugging Face – Transformers Documentation  
+https://huggingface.co/docs/transformers/index  
 
 ---
 
-## 🎯 ReAct (Reasoning + Acting)
-Combina raciocínio com ações externas, como consultas a APIs, ferramentas ou bancos de dados.
+# Engenharia de Prompts e “Cicatrizes” (Testes)
+
+## Etapa 1 – Compreensão Geral
+
+- Visão geral sobre LLMs e Engenharia de Prompts  
+- Identificação de conceitos comuns entre fontes  
+- Comparação entre abordagens (OpenAI, Google, Anthropic, Microsoft, Hugging Face)
 
 ---
 
-## 🎯 Retrieval-Augmented Generation (RAG)
-Enriquece o prompt utilizando documentos externos como fonte de conhecimento.
+## Etapa 2 – Estudo Técnico
+
+- Técnicas: Zero-shot, One-shot, Few-shot, Chain-of-Thought, Self-Consistency, ReAct, Tree of Thoughts  
+- Funcionamento interno de LLMs (tokens, embeddings, atenção, contexto)  
+- Tabela comparativa entre técnicas
 
 ---
 
-# Boas Práticas
+## Etapa 3 – Aplicação Prática
 
-- Definir claramente o papel do modelo (*Role Prompting*);
-- Utilizar instruções organizadas por prioridade;
-- Delimitar o contexto utilizando Markdown ou XML;
-- Solicitar respostas em formatos estruturados (JSON, tabelas etc.);
-- Testar diferentes versões do prompt e avaliar os resultados.
+- Criação de prompts para diferentes áreas:
+  - Programação  
+  - Análise de dados  
+  - Criação de conteúdo  
+  - Estudos  
+  - Atendimento ao cliente  
 
----
-
-# Erros Comuns
-
-- Utilizar instruções vagas ou ambíguas;
-- Presumir que o modelo conhece todo o contexto;
-- Ignorar o limite da janela de contexto;
-- Aplicar técnicas avançadas em modelos pouco capazes;
-- Confiar em informações desatualizadas sem utilizar RAG ou fontes externas.
+- Refinamento de prompts em níveis básico → avançado  
+- Identificação de erros comuns em iniciantes  
 
 ---
 
-# Aplicações Profissionais
+## Etapa 4 – Revisão
 
-## 💻 Desenvolvimento de Software
-
-- Geração de código;
-- Refatoração;
-- Documentação automática;
-- Testes unitários;
-- Debugging.
+- Resumo completo do conteúdo  
+- Glossário técnico  
+- 20 perguntas de revisão  
+- Mapa mental do conhecimento  
 
 ---
 
-## 📊 Análise de Dados
+# Miniguia de Estudos
 
-- Geração de consultas SQL;
-- Interpretação de dados;
-- Identificação de tendências;
-- Criação de dashboards;
-- Resumo de indicadores.
+A Engenharia de Prompts consiste na criação de instruções eficazes para guiar modelos de linguagem na geração de respostas precisas, estruturadas e úteis.
 
----
+## Técnicas principais
 
-## 🤖 Inteligência Artificial
+- Zero-shot: sem exemplos  
+- One-shot: um exemplo  
+- Few-shot: múltiplos exemplos  
+- Chain-of-Thought: raciocínio passo a passo  
+- Self-Consistency: múltiplos raciocínios  
+- ReAct: raciocínio + ações externas  
+- RAG: recuperação de informações externas  
 
-- Construção de agentes inteligentes;
-- Otimização de prompts;
-- Avaliação de respostas;
-- Segurança de modelos;
-- Integração com ferramentas externas.
+## Boas práticas
 
----
+- Definir papel do modelo (Role Prompting)  
+- Estruturar instruções claramente  
+- Utilizar formatos (JSON, tabelas, Markdown)  
+- Iterar e melhorar prompts continuamente  
 
-## 🎓 Educação
+## Erros comuns
 
-- Tutoria personalizada;
-- Criação de resumos;
-- Flashcards;
-- Questionários;
-- Apoio ao aprendizado.
+- Prompts vagos  
+- Falta de contexto  
+- Ignorar limites de contexto  
+- Expectativa de conhecimento implícito  
 
----
+## Aplicações
 
-## 🩺 Saúde
-
-- Resumo de documentos médicos;
-- Apoio à pesquisa científica;
-- Organização de informações clínicas.
-
----
-
-# Resumo Final
-
-A Engenharia de Prompts consiste em projetar instruções capazes de orientar Grandes Modelos de Linguagem de forma eficiente e previsível.
-
-Mais do que formular perguntas, trata-se de compreender como os modelos processam informações, como utilizam o contexto disponível e quais técnicas permitem obter respostas mais precisas.
-
-O domínio dessa habilidade possibilita desenvolver aplicações mais confiáveis, automatizar tarefas, criar agentes inteligentes e aumentar a produtividade em diversas áreas profissionais.
+- Desenvolvimento de software  
+- Análise de dados  
+- Educação  
+- Automação de tarefas  
+- Criação de agentes de IA  
 
 ---
 
-# Biblioteca de Prompts Reutilizáveis
+# Glossário
 
-## 🎓 Para Estudantes
+Inclui conceitos como:
 
-- Resumo de documentos técnicos;
-- Resolução de problemas matemáticos utilizando Chain-of-Thought;
-- Aprendizado de idiomas com Few-shot;
-- Criação de quizzes para revisão;
-- Correção gramatical e estilística.
-
----
-
-## 💻 Para Desenvolvedores
-
-- Refatoração de código;
-- Geração de testes unitários;
-- Desenvolvimento de interfaces utilizando IA;
-- Documentação automática;
-- Explicação de erros e debugging.
+- Tokens  
+- Tokenização  
+- LLMs  
+- Context Window  
+- Attention  
+- Embeddings  
+- Fine-tuning  
+- RAG  
+- Chain-of-Thought  
+- Self-Consistency  
+- Hallucination  
 
 ---
 
-## 📊 Para Analistas de Dados
+# Biblioteca de Prompts
 
-- Geração de consultas SQL;
-- Síntese de insights para executivos;
-- Limpeza e padronização de dados;
-- Análise de tendências passo a passo;
-- Explicação de algoritmos.
+## Estudos
+
+- Explicar conceitos de forma simples e técnica  
+- Criar resumos estruturados  
+- Gerar questões de revisão  
+
+## Desenvolvimento
+
+- Refatoração de código  
+- Geração de testes unitários  
+- Explicação de bugs  
+
+## Dados
+
+- Análise de datasets  
+- Geração de insights  
+- Explicação executiva  
+
+## IA
+
+- Melhorar prompts  
+- Criar agentes  
+- Aplicar Role Prompting  
 
 ---
 
-## 🤖 Para Profissionais de IA
+# Reflexão Pessoal
 
-- Meta-prompting para otimização de prompts;
-- Criação de agentes inteligentes com ReAct;
-- Avaliação da qualidade de respostas;
-- Definição de regras utilizando *Developer Role*;
-- Geração de conteúdo utilizando RAG.
+Durante este projeto, compreendi que a Engenharia de Prompts vai muito além de escrever perguntas para uma IA. Trata-se de uma habilidade estruturada que envolve clareza, contexto e intenção.
 
----
+Percebi que pequenos ajustes em um prompt podem gerar mudanças significativas na qualidade da resposta. Isso reforça a importância da experimentação, da iteração e da escrita precisa.
 
-# Principais Aprendizados
-
-Durante este estudo, compreendi que a **Engenharia de Prompts** vai além da elaboração de perguntas para uma IA. Trata-se de uma habilidade estratégica que envolve comunicação clara, organização do contexto e escolha da técnica mais adequada para cada objetivo.
-
-Também percebi que a qualidade das respostas depende diretamente da qualidade do prompt, reforçando a importância de testar, refinar e documentar diferentes abordagens para obter resultados consistentes.
+Também entendi que a IA não substitui o pensamento crítico, mas potencializa a capacidade de organizar e expandir o conhecimento.
 
 ---
 
-> **💡 Conclusão:** A Engenharia de Prompts é uma competência essencial para quem deseja utilizar modelos de IA de forma eficiente, desenvolvendo soluções mais precisas, confiáveis e aplicáveis em diferentes áreas do conhecimento.
+# Conclusão
+
+Este projeto consolidou conhecimentos sobre Engenharia de Prompts e mostrou como LLMs podem ser utilizados de forma estratégica para aprendizado, produtividade e desenvolvimento profissional.
+
+---
+
+# Tecnologias Utilizadas
+
+- NotebookLM  
+- GitHub  
+- Markdown  
+- Inteligência Artificial Generativa  
+
