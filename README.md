@@ -32,6 +32,30 @@ O NotebookLM foi utilizado como ferramenta central para:
 
 ---
 
+# Evidências de Uso do NotebookLM
+
+Esta seção apresenta capturas de tela do uso real da ferramenta durante o desenvolvimento do projeto.
+
+---
+
+## Organização das fontes
+
+![NotebookLM - fontes](assets/notebooklm-fontes.png)
+
+---
+
+## Execução de prompts de estudo
+
+![NotebookLM - prompts](assets/notebooklm-prompts.png)
+
+---
+
+## Síntese e geração de conteúdo
+
+![NotebookLM - resumo](assets/notebooklm-resumo.png)
+
+---
+
 # Curadoria de Fontes
 
 - OpenAI — Prompt Engineering Guide  
