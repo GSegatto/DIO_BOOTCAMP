@@ -180,10 +180,6 @@ A evolução dos prompts mostrou que clareza, contexto e estrutura impactam dire
 
 Este projeto consolidou conhecimentos sobre Engenharia de Prompts e demonstrou o uso do NotebookLM como ferramenta de organização, aprendizado e síntese de conteúdo técnico.
 
----
-
-# Meu NotebookLM
-
 - NotebookLM — Link Público  
 https://notebooklm.google.com/notebook/9f9f1803-ed23-455b-87e8-8dfad68bbb71
 
